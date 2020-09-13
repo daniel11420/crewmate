@@ -1,0 +1,25 @@
+{
+    "#readme": [
+        "Hello, person configuring this! Fields that start with a # are comments for you to read.",
+        "You shouldn't modify these, these are just for reading. They'll tell you what to put in fields."
+    ],
+
+    "#config_version": "You shouldn't change this, the bot uses this to check if your config is up-to-date.",
+    "config_version": 1,
+
+    "#token": "Here, you should put your Discord bot token. You can get it at the developers page (click your application and click bot) https://discord.com/developers",
+    "token": "",
+
+    "#prefix": "This is the default prefix you'd like commands to start with. (You might have changed this with Commando)",
+    "prefix": "!",
+
+    "#owner": "Here, you should put your Discord UserID. (Enable Developer Mode in Appearance, then right click yourself on a user list and click Copy ID)",
+    "owner": "000000000000000000",
+
+    "#activity": "This is the activity/status the bot will have.",
+    "activity": {
+        "#type": "options: PLAYING, WATCHING, STREAMING, LISTENING",
+        "type": "PLAYING",
+        "text": "a game"
+    }
+}
