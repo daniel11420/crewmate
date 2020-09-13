@@ -33,7 +33,7 @@ module.exports = class WikiLookup extends Commando.Command {
             if (Object.keys(body.items).length === 0) { toReturn = message.reply(`Wiki article not found.`); } else {
                 let embed = new MessageEmbed();
                 embed.setTitle(body.items[Object.keys(body.items)[0]].title);
-                embed.setFooter("from among-us-wiki@fandom");
+                embed.setFooter("daniel11420/crewmate | info from among-us-wiki.fandom.com");
                 embed.setDescription(`${body.items[Object.keys(body.items)[0]].abstract}
                     
                 [Read More](${body.basepath}${body.items[Object.keys(body.items)[0]].url})`);

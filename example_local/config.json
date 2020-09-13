@@ -21,5 +21,27 @@
         "#type": "options: PLAYING, WATCHING, STREAMING, LISTENING",
         "type": "PLAYING",
         "text": "a game"
+    },
+
+    "#maps": "Put links to map guides here. For the Emoji field, upload the _icon files in assets/images then put the emoji IDs in format <:EmojiName:EmojiID>. The bot must be in the server that the emoji is in.",
+    "maps": {
+        "mira hq": {
+            "image": "https://image-host.club/DNapyZKa.png",
+            "author": "u/Vici_Finis",
+            "emoji": "<:mira_hq:000000000000000000>",
+            "displayname": "Mira HQ"
+        },
+        "polus": {
+            "image": "https://image-host.club/fF6RwBMO.png",
+            "author": "u/Vici_Finis",
+            "emoji": "<:polus:000000000000000000>",
+            "displayname": "Polus"
+        },
+        "skeld": {
+            "image": "https://image-host.club/oCUJNOrZ.png",
+            "author": "u/SuperInkyGD",
+            "emoji": "<:skeld:000000000000000000>",
+            "displayname": "Skeld"
+        }
     }
 }

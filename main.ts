@@ -43,10 +43,12 @@ client.on('ready', async () => {
 });
 
 client.registry
-    .registerDefaults()
+    .registerDefaultTypes()
     .registerGroups([
         ['assist', 'Assist']
     ])
+    .registerDefaultGroups()
+    .registerDefaultCommands({help: false})
     .registerCommandsIn(path.join(__dirname, 'commands'))
     .unknownCommand = null;
 
