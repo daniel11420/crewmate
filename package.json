@@ -1,14 +1,14 @@
 {
-  "name": "bot-ts",
+  "name": "crewmate",
   "version": "1.0.0",
-  "description": "Bot template with TypeScript, DiscordJS and DiscordJS Commando",
+  "description": "Among Us discord bot",
   "main": "entry.js",
   "scripts": {
     "start": "node ."
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/daniel11420/bot-ts"
+    "url": "git+https://github.com/daniel11420/crewmate"
   },
   "keywords": [
     "discord"
@@ -16,9 +16,9 @@
   "author": "daniel11420",
   "license": "SEE LICENSE IN LICENSE",
   "bugs": {
-    "url": "https://github.com/daniel11420/bot/issues"
+    "url": "https://github.com/daniel11420/crewmate/issues"
   },
-  "homepage": "https://github.com/daniel11420/bot-ts#readme",
+  "homepage": "https://github.com/daniel11420/crewmate#readme",
   "dependencies": {
     "@types/better-sqlite3": "^5.4.0",
     "@types/node": "^14.0.5",
@@ -27,6 +27,8 @@
     "discord.js-commando": "github:discordjs/Commando",
     "figlet": "^1.4.0",
     "fs": "0.0.1-security",
+    "lodash": "^4.17.20",
+    "request": "^2.88.2",
     "sqlite": "^4.0.8",
     "sqlite3": "^4.2.0",
     "table": "^5.4.6",

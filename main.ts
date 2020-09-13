@@ -6,6 +6,7 @@ import * as sqlite from 'sqlite';
 import { table } from 'table';
 import * as figlet from 'figlet';
 import * as package_json from './package.json';
+import * as _ from 'lodash';
 let name = package_json.name;
 
 let client: Commando.CommandoClient;
@@ -43,6 +44,9 @@ client.on('ready', async () => {
 
 client.registry
     .registerDefaults()
+    .registerGroups([
+        ['assist', 'Assist']
+    ])
     .registerCommandsIn(path.join(__dirname, 'commands'))
     .unknownCommand = null;
 
