@@ -22,3 +22,5 @@ As I said before, you can suggest features in my [Direct Messages](https://disco
 If you find a bug, make a GitHub issue. **Do not make GitHub issues for suggestions. DM me them and if I decide it's a good idea, I'll make the issue**.
 
 If you'd like to add something to the bot yourself, feel free to make a pull request. If I add something major from a pull request, I'll make sure to credit you in `c help`.
+# License
+Crewmate is licensed under the [GPL v3 license](https://choosealicense.com/licenses/gpl-3.0).
