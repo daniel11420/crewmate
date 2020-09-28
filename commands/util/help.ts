@@ -20,7 +20,7 @@ module.exports = class ShowHelp extends Commando.Command {
     async run(message) {
         let about: MessageEmbed = new MessageEmbed({
             "title": "About Crewmate",
-            "description": "Crewmate is a Discord bot for helping you play Among Us.\nDeveloped by daniel11420.\n\nThis bot is still a work in progress; I am actively making new features,\nand if you'd like to suggest something for me to add, please [DM me (daniel11420#0069)](https://discord.com/users/243472272264921088).\n\n[More Information (readme)](https://github.com/daniel11420/crewmate/blob/master/README.md)"
+            "description": "Crewmate is a Discord bot for helping you play Among Us.\nDeveloped by daniel11420.\n\nThis bot is still a work in progress; I am actively making new features,\nand if you'd like to suggest something for me to add, please [DM me (daniel11420#0069)](https://discord.com/users/243472272264921088).\n\n[More Information (readme)](https://github.com/daniel11420/crewmate/blob/master/README.md)\n[Invite the bot here](https://discord.com/api/oauth2/authorize?client_id=754552331797790740&permissions=314368&redirect_uri=https%3A%2F%2Fgithub.com%2Fdaniel11420%2Fcrewmate%2Fwiki%2FThanks-for-inviting-the-bot%21&scope=bot) | [top.gg Page](https://top.gg/bot/754552331797790740)"
         });
 
         let meta: MessageEmbed = new MessageEmbed({

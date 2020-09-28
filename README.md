@@ -1,5 +1,5 @@
 # Crewmate, an Among Us discord bot
-## [Invite the bot here](https://discord.com/api/oauth2/authorize?client_id=754552331797790740&permissions=314368&redirect_uri=https%3A%2F%2Fgithub.com%2Fdaniel11420%2Fcrewmate%2Fwiki%2FThanks-for-inviting-the-bot%21&scope=bot)
+## [Invite the bot here](https://discord.com/api/oauth2/authorize?client_id=754552331797790740&permissions=314368&redirect_uri=https%3A%2F%2Fgithub.com%2Fdaniel11420%2Fcrewmate%2Fwiki%2FThanks-for-inviting-the-bot%21&scope=bot) | [top.gg Page](https://top.gg/bot/754552331797790740)
 
 Crewmate is a Discord bot for helping you play Among Us. Made using TypeScript, [discord.js](https://github.com/discordjs/discord.js) and [Commando](https://github.com/discordjs/Commando).
 
