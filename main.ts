@@ -40,6 +40,14 @@ client.on('ready', async () => {
     ]));
 });
 
+client.on("guildCreate", guild => {
+    if (config.joinNotifs == true) client.users.cache.get(config.owner).send(`Joined guild ${guild.name}`);
+});
+
+client.on("guildDelete", guild => {
+    if (config.joinNotifs == true) client.users.cache.get(config.owner).send(`Left guild ${guild.name}`);
+});
+
 client.registry
     .registerDefaultTypes()
     .registerGroups([

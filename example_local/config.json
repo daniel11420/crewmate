@@ -16,6 +16,9 @@
     "#owner": "Here, you should put your Discord UserID. (Enable Developer Mode in Appearance, then right click yourself on a user list and click Copy ID)",
     "owner": "000000000000000000",
 
+    "#joinNotifs": "Do you want the bot owner to get a DM when the bot joins a new server?",
+    "joinNotifs": true,
+
     "#activity": "This is the activity/status the bot will have.",
     "activity": {
         "#type": "options: PLAYING, WATCHING, STREAMING, LISTENING",
