@@ -30,15 +30,13 @@ client.on('ready', async () => {
         .then(presence => console.log(`Activity set successfully: ${presence.activities[0].type} ${presence.activities[0].name}`)) // Log activity
         .catch(console.error);
     
-    //console.log(`Bot-ts is ready.\nHelp: ${config.prefix}help\nAccount: ${client.user.tag}\nCopyright daniel11420 © 2020.\nSee license in LICENSE.`);
-    // Logging basic info
     console.log(figlet.textSync(name));
     console.log(package_json.description);
     console.log(table([
         ['Account', client.user.tag],
         ['Activity', `${config.activity.type} ${config.activity.text}`],
         ['Help (Default)', `${config.prefix}help`],
-        [`${name} info`, `${name} version ${package_json.version}\n${package_json.license}\nCopyright ${package_json.author} (c) 2020`]
+        [`${name} info`, `${name} version ${package_json.version}\n${package_json.license}, by ${package_json.author}`]
     ]));
 });
 

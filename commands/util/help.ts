@@ -20,7 +20,7 @@ module.exports = class ShowHelp extends Commando.Command {
     async run(message) {
         let about: MessageEmbed = new MessageEmbed({
             "title": "About Crewmate",
-            "description": "Crewmate is a Discord bot for Among Us written by daniel11420.\n\nThis bot is still a work in progress; I am actively making new features,\nand if you'd like to suggest something for me to add, please [DM me](https://discord.com/users/243472272264921088).\n\nAfter I am satisfied with the functionality of the bot, I will make the\ninvite link public so that it can be added to any server. Until then, the\nbot is exclusive to the Weakness Group Chat."
+            "description": "Crewmate is a Discord bot for helping you play Among Us.\nDeveloped by daniel11420.\n\nThis bot is still a work in progress; I am actively making new features,\nand if you'd like to suggest something for me to add, please [DM me (daniel11420#0069)](https://discord.com/users/243472272264921088).\n\n[More Information (readme)](https://github.com/daniel11420/crewmate/blob/master/README.md)"
         });
 
         let meta: MessageEmbed = new MessageEmbed({
@@ -47,7 +47,7 @@ module.exports = class ShowHelp extends Commando.Command {
               },
               {
                 "name": "`help`",
-                "value": "Show this message",
+                "value": "Show help and command list",
                 "inline": true
               }
             ]
@@ -61,12 +61,12 @@ module.exports = class ShowHelp extends Commando.Command {
             "fields": [
               {
                 "name": "`wiki <value>`",
-                "value": "Search for something on the wiki",
+                "value": "Search for something on the wiki and show a summary",
                 "inline": true
               },
               {
                 "name": "`maps`",
-                "value": "Show map guides",
+                "value": "Quick access to map guides",
                 "inline": true
               }
             ]
